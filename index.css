@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: rgb(17, 19, 17);
+}
+
+section{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.create_container{
+    width: 80%;
+}
+
+.create_input{
+    padding: 12px 5px;
+    font-size: 18px;
+    width: 80%;
+}
+
+.create_button{
+    padding: 12px 20px;
+    background-color: hotpink;
+    border: 1px solid hotpink;
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
